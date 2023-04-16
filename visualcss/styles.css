@@ -1,3 +1,44 @@
-h1{color: green;}
-body{font-size: 50px;}
-button{font-size:20px;}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 248, 240);
+}
+header {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    color: azure;
+}
+.banner-nav{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-nav a {
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.banner-nav a:hover{
+    background-color: azure;
+    color: cadetblue;
+    transition: 0.3s;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    color: azure;
+    font-weight: bold;
+}
